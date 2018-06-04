@@ -1,0 +1,198 @@
+body{
+	background: rgb(247,247,247);
+}
+html, body, .container-admin, .container-admin > .row{
+	height:100%;
+}
+ .container-admin > .row{
+ 	margin-bottom: 0;
+ }
+.navbar-sidebar{
+	background:rgb(65, 88, 110);
+	height:100%;
+	overflow-y:auto;
+	padding:0px 0px !important;
+}
+.navbar-brand{
+	height: 70px;
+	line-height: 70px;
+	background: rgb(37, 49, 62);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size:22px;
+}
+.navbar-brand a{
+	color:rgb(173, 190, 206);
+}
+.main-page{
+	padding:0px !important;
+	height:100%;
+	overflow-y:auto;
+}
+.page-content{
+	margin-top:100px;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+	height:70px;
+	line-height:70px;
+	background: rgb(37, 49, 62);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.navbar ul{
+	list-style: none;
+	margin: 0px;
+}
+.navbar ul li{
+	display: inline-block;
+	height:70px;
+	text-align: center;
+	min-width:50px;
+	padding-left:20px;
+	padding-right:20px;
+	background: rgb(37, 49, 62);
+	transition:all 0.2s ease;
+}
+.navbar ul li a{
+	color:rgb(173, 190, 206);
+	font-weight: bolder;
+	font-size: 16px;
+}
+.navbar ul li i{
+	color:rgb(173, 190, 206);
+	line-height: 70px;
+	display: inline-block;
+	vertical-align: middle;
+	width:30px;
+}
+.navbar ul li:hover{
+	background: rgb(27, 37, 46);
+}
+.side-bar{
+	list-style: none;
+	margin: 0;
+	color:white;
+}
+.side-bar.close{
+	width:50px;
+}
+.side-bar li{
+	height: 50px;
+	line-height: 50px;
+}
+.side-bar div.drop-down{
+	display: none;
+	background: rgb(55, 75, 94)
+}
+.side-bar div.drop-down.open{
+	display: block;
+}
+.side-bar a{
+	color:white;
+}
+
+.side-bar li.green{
+	background: rgb(137, 204, 151);
+	padding-top:13px;
+	padding-left:10px;
+	padding-right:10px;
+	height: 70px;
+	line-height: 70px;
+}
+.side-bar li.green select{
+	background: transparent;
+	border: 0;
+	font-size: 14px;
+	outline:0;
+	color:black;
+}
+.side-bar li a{
+	font-size: 14px;
+}
+.side-bar li i{
+	float: left;
+	font-size: 20px;
+	vertical-align: middle;
+	height:50px;
+	line-height:50px;
+	width:50px;
+}
+.li-padfix{
+	padding-left: 15px;
+}
+.side-bar li:hover{
+	background: rgb(52, 71, 89);
+}
+.li-bottom{
+	position: absolute;
+	bottom: 0;
+}
+.theme-orange{
+	background: rgb(251, 107, 91);
+}
+.theme-yellow{
+	background: rgb(255, 195, 51);
+}
+.theme-green-olive{
+	background: rgb(142, 193, 101);
+}
+.theme-green{
+	background: rgb(101, 189, 119);
+}
+.theme-green-dark{
+	background: rgb(72, 167, 91);
+}
+.theme-blue{
+	background: rgb(76, 192, 193);
+}
+.navbar ul{
+	display: inline-block;
+}
+.theme-dark-blue{
+	background: rgb(37, 49, 62);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+}
+.black-text a{
+	color:black;
+}
+.black-text a::before,.black-text .breadcrumb:last-child{
+	color:black;
+}
+.card.bread-crumb .card-content{
+	padding: 0px 15px;
+}
+.card.bread-crumb .card-content ul{
+	list-style: none;
+}
+.card.bread-crumb .card-content ul li{
+	display: inline-block;
+}
+.card.bread-crumb .card-content ul li a:after{
+	content:'\E5CC';
+	font-family: 'Material Icons';
+	font-size:25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.card.bread-crumb .card-content ul li:last-child a:after{
+	content:'';
+	font-family: 'Material Icons';
+	font-size:25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.card.bread-crumb .card-content ul li:last-child{
+	font-weight: bolder;
+}
+.card.bread-crumb .card-content ul li a{
+	display: inline-block;
+	color: black;
+}
+.container.container-site {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}

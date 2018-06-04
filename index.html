@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Admin Panel</title>
+		<link rel="stylesheet" type="text/css" href="library/materialize/dist/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="library/materialicons/materialicons.css">
+		<script type="text/javascript" src="library/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="library/materialize/dist/js/materialize.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">		
+	</head>
+	<body>
+
+		<div class="container-fluid container-admin">
+			<div class="row">
+				<div class="col s2 navbar-sidebar">
+					<div class="navbar-brand">
+						<a href="#">Admin Panel</a>
+						<ul class="side-bar">
+							<li class="green">
+								<select class="browser-default">
+									<option value="" disabled selected>Switch Project</option>
+									<option value="1">Infinitium</option>
+									<option value="2">Cronor</option>
+									<option value="3">Blog</option>
+									<option value="new_project">Add New</option>
+								</select>
+							</li>							
+							<li>
+								<i class="material-icons theme-orange">dns</i>
+								<a href="#" drop="content">Content</a>
+							</li>
+							<div id="content" class="drop-down">
+								<li>
+									<i></i><a href="#">Posts</a>
+								</li>
+							</div>
+							<li>
+								<i class="material-icons theme-green-dark">assessment</i>
+								<a drop="apis" href="#">APIs</a>
+							</li>
+							<div id="content" class="drop-down">
+								<li>
+									<i></i><a href="#">Posts</a>
+								</li>
+							</div>
+							<li>
+								<i class="material-icons theme-yellow">perm_media</i>
+								<a href="#" drop="media">Media</a>
+							</li>
+							<div id="media" class="drop-down">
+								<li>
+									<i></i><a href="#">Images</a>
+								</li>
+								<li>
+									<i></i><a href="#">GIFs</a>
+								</li>
+								<li>
+									<i></i><a href="#">Videos</a>
+								</li>
+								<li>
+									<i></i><a href="#">Add New</a>
+								</li>
+							</div>
+							<li>
+								<i class="material-icons theme-green">code</i>
+								<a drop="repo" href="#">Repositories</a>
+							</li>
+							<div id="repo" class="drop-down">
+								<li><i></i><a href="#">Add New</a></li>
+							</div>
+							<li>
+								<i class="material-icons theme-green-dark">note_add</i>
+								<a drop="notes" href="#">Notebook</a>
+							</li>
+							<div id="notes" class="drop-down">
+								<li><i></i><a href="#">Wall</a></li>
+								<li><i></i><a href="#">Timeline</a></li>
+							</div>
+							<li>
+								<i class="material-icons theme-green-olive li-padfix">messages</i>
+								<a href="#">Messages</a>
+							</li>
+							<li>
+								<i class="material-icons theme-blue">settings</i>
+								<a drop="settings" href="#">Settings</a>
+							</li>
+							<div id="settings" class="drop-down">
+								<li><i></i><a href="#">General</a></li>
+								<li><i></i><a href="#">Users</a></li>
+							</div>
+							<!-- <li class="li-bottom">
+								<i class="material-icons">keyboard_arrow_left</i>
+								<a href="#">Hide</a>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="col s10 main-page">
+					<div class="navbar">
+						<ul>
+							<li><a class="active" href="#"><i class="material-icons">dashboard</i> Home</a></li>
+							<li><a href="#"><i class="material-icons">events</i> Activity</a></li>
+						</ul>
+						<ul class="right">
+							<li><a href="#">Logout</a></li>
+						</ul>
+					</div>
+					<div class="page-content">		
+
+						<div class="container container-site">
+							<div class="card bread-crumb">
+								<div class="card-content">
+									<ul>
+										<li><a href="#">Dashboard</a></li>
+										<li><a href="#">Database</a></li>
+										<li><a href="#">Posts</a></li>
+										<li><a href="#">Add New</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="container container-site">
+							<div class="card">
+								<div class="card-content">
+									<h5>Add Something</h5>
+									<div class="input-field">
+										<label for="name">Name</label>
+										<input id="name" type="text"></input>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
